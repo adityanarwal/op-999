@@ -31,7 +31,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has **updated !**"
+        "✅ Bot **Server Reloaded !**\n✅ **Admin list** has **updated !**"
     )
 
 
@@ -93,7 +93,7 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("✅ The userbot has disconnected from the video chat.")
+            await m.reply("Stop Streaming Successfully")
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
