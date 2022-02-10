@@ -65,26 +65,26 @@ Find out all the Bot's commands and how they work by clicking on the commands bu
             [
                 [
                     InlineKeyboardButton(
-                        "• Click Here To Add Me •",
+                        "➕ Click Here To Add Me ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
               
                 [
-                    InlineKeyboardButton("• Commands •", callback_data="cbcmds"),
+                    InlineKeyboardButton("Commands ❓", callback_data="cbcmds"),
                    
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Official Group •", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🔰 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "• Official Channel •", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "Official Channel 🔰", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• Owner •", url="https://t.me/Its_romeoo"
+                        "⚡ Owner", url="https://t.me/Its_romeoo"
                     )
                 ],
             ]
